@@ -1,8 +1,68 @@
 
-body{background-color: tomato;}
+body{background-color: #ECEEF1;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;}
 .container{
     margin: 0 auto;
-    background-color: teal;
     width: 400px;
     height: 100vh;
+    color: #8D9096;
+}
+a{
+    text-decoration: none;
+    color: #0077C5;
+}
+#brand {
+    margin:0;
+    font-size: 50px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.header{
+    text-align: center;
+}
+#list-websites{
+    margin-top: 0px;
+}
+#list-websites span{
+    vertical-align: middle;
+    font-size: 22px;
+}
+#list-websites img{
+    vertical-align: middle;
+}
+.sign-up-form{
+    background-color: white;
+    border: 1px solid gray;
+    text-align: center;
+    color: #4C4C4C;
+}
+.title{
+    font-size: 24px;
+}
+.blue-text{
+color: #0077C5;
+}
+form{
+    text-align: left;
+    padding-left: 35px;
+}
+label{
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+.input{
+    margin-top: 10px;
+    height: 30px;
+    padding: 2px;
+    width: 90%;
+    border-radius: 3px;
+    border-style: 0.4px solid #C1C5C8;
+  
+}
+.form{
+    margin-bottom:35px ;
+
 }
