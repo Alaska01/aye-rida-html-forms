@@ -29,15 +29,22 @@
         <form>
             <div class="form">
             <label>Email address</label>
-            <input class="input" type="email" placeholder="You'll verify this later" />
+            <input class="input" type="email" placeholder="You'll verify this later" required/>
             </div>
             <div class="form">
                 <label>Phone (recommended)</label>
-                <input class="input" type="tel" placeholder="You'll verify this later" />
+                <input class="input" type="tel" placeholder="You'll verify this later" required/>
+                <br>
+                <p id="message">Standard call, messaging or data rates may apply</p>
             </div>
             <div class="form">
-                <label>ps</label>
-                <input class="input" type="email" placeholder="You'll verify this later" />
+                <label>Password</label>
+                <input class="input" type="password"  required/>
+
+                <button id="Create-Account" type="submit" class="btn">
+                    <img id="signin-image" src="images/lock.svg"/>Create Account</button>
+               
+            
             </div>
     </form>
     </div>
