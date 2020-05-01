@@ -1,0 +1,8 @@
+
+body{background-color: tomato;}
+.container{
+    margin: 0 auto;
+    background-color: teal;
+    width: 400px;
+    height: 100vh;
+}
