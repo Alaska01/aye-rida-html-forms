@@ -12,6 +12,28 @@ a{
     text-decoration: none;
     color: #0077C5;
 }
+.forget-password{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 300px;
+    font-size: 12px;
+   
+}
+.sign-in-msg{
+    width: 172px; 
+   float: left;
+}
+.sign-in-button{
+    background-color: rgb(0,119,197);
+border-radius: 6px;
+width: 90px;
+height: 40px;
+font-size: 14px;
+color: white;
+margin-top: 10px; 
+
+}
 #brand {
     margin:0;
     font-size: 50px;
@@ -74,7 +96,15 @@ label{
     height: 20px;
     width: 20px;
     margin-right: 10px;
+}
+.password-field{
+background: url(images/password-icon.png) no-repeat scroll 300px 4px;
+background-size: 25px 25px;
 
+}
+.password-icon{
+    width:30px ;
+    border: 1px solid gray;
 }
 .Create-Account {
 background-color: rgb(0,119,197);
@@ -84,8 +114,18 @@ height: 50px;
 font-size: 18px;
 color: white;
 margin-top: 30px;
-
-
-
+}
+.privacy-statement{
+    font-size: 14px;
+    padding: 40px;
+    padding-top: 1px;
+}
+.recaptcha{
+    font-size: 12px;
+    background-color: #ECEEF1;
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 4px;
 }
 
