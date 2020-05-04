@@ -70,7 +70,22 @@ label{
     font-size: 10px;
 }
 
-#signin-image{
+.signin-image{
     height: 20px;
     width: 20px;
+    margin-right: 10px;
+
 }
+.Create-Account {
+background-color: rgb(0,119,197);
+border-radius: 6px;
+width: 330px;
+height: 50px;
+font-size: 18px;
+color: white;
+margin-top: 30px;
+
+
+
+}
+
