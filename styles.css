@@ -5,7 +5,7 @@ box-sizing: border-box;}
 .container{
     margin: 0 auto;
     width: 400px;
-    height: 100vh;
+    
     color: #8D9096;
 }
 a{
@@ -23,17 +23,28 @@ a{
 .sign-in-msg{
     width: 172px; 
    float: left;
+
 }
 .sign-in-button{
-    background-color: rgb(0,119,197);
+position: relative;
+background-color: rgb(0,119,197);
 border-radius: 6px;
 width: 90px;
 height: 40px;
 font-size: 14px;
 color: white;
-margin-top: 10px; 
+margin-top: 14px; 
+padding-left: 20px;
+
 
 }
+
+.signin-position{
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+
 #brand {
     margin:0;
     font-size: 50px;
@@ -129,3 +140,13 @@ margin-top: 30px;
     padding-bottom: 4px;
 }
 
+.footer{
+   margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    color: #4C4C4C;
+}
+
+.text-black{
+    color: #4C4C4C;
+}
