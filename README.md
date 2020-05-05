@@ -10,7 +10,8 @@
 </ul>
 <h1>Getting Started<h1>
 <p>it doesn't require any setups it just a simple HTML, CSS project</p>
-
+<h1>Description</h1>
+<p>This is a HTML sign-up form built with HTML and styled with CSS</p>
 <h1>Authors</h1>
 <h2>Aye Daniel A</h2> 
 <ul>

@@ -35,7 +35,7 @@ font-size: 14px;
 color: white;
 margin-top: 14px; 
 padding-left: 20px;
-
+cursor:pointer;
 
 }
 
@@ -45,7 +45,7 @@ padding-left: 20px;
     left: 5px;
 }
 
-#brand {
+.brand {
     margin:0;
     font-size: 50px;
     margin-top: 90px;
@@ -55,14 +55,14 @@ padding-left: 20px;
 .header{
     text-align: center;
 }
-#list-websites{
+.list-websites{
     margin-top: 0px;
 }
-#list-websites span{
+.list-websites span{
     vertical-align: middle;
     font-size: 22px;
 }
-#list-websites img{
+.list-websites img{
     vertical-align: middle;
 }
 .sign-up-form{
@@ -99,7 +99,7 @@ label{
     margin-bottom:35px ;
 
 }
-#message{
+.message{
     font-size: 10px;
 }
 
@@ -125,6 +125,7 @@ height: 50px;
 font-size: 18px;
 color: white;
 margin-top: 30px;
+cursor:pointer;
 }
 .privacy-statement{
     font-size: 14px;

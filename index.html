@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>HTML Forms</title>
 <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
-    <div class="forget-password">
+    <aside class="forget-password">
         <div class="sign-in-msg">
         <p>Already have an Intuit account?</p>
-        <p class="blue-text "><a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D83841aea-9210-4439-abb3-a3090d591ac8%26adobe_mc%3DMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1588321778%26ivid%3D83841aea-9210-4439-abb3-a3090d591ac8#"> 
+        <p class="blue-text "><a href="https://accounts.intuit.com/signup.html?offering_class=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D83841aea-9210-4439-abb3-a3090d591ac8%26adobe_mc%3DMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1588321778%26ivid%3D83841aea-9210-4439-abb3-a3090d591ac8#"> 
             I forgot my User ID or Password
         </a> </p>
         </div>
         <button class="sign-in-button" type="submit">
             <img class="signin-image signin-position" alt="sign-in icon" src="images/lock.svg"/>Sign in</button>
-    </div>
+    </aside>
 
-<div class="container">
-    <div class="header">
-        <p id="brand">intuit</p>
-        <p id="list-websites"> 
+<main class="container">
+    <header class="header">
+        <p class="brand">intuit</p>
+        <p class="list-websites"> 
             <img src="images/mint-image.JPG" alt="mint image icon"/>
             <span>mint</span>
             <img src="images/quick-books-image.JPG" alt="quickbooks image icon"/>
@@ -28,7 +28,7 @@
             <img src="images/turbotax-image.JPG" alt="turbotax image icon"/>
             <span>turbotax</span>
         </p>
-    </div>   
+    </header>   
     <div class="sign-up-form">
         <p class="title">Create an Intuit account</p>
         <p>One account for everything Intuit, including Mint.</p>
@@ -38,22 +38,22 @@
             </a>
         </p>
         <form>
-            <div class="form">
+            <section class="form">
             <label>Email address</label>
             <input class="input" type="email" placeholder="You'll verify this later" required/>
-            </div>
-            <div class="form">
+            </section>
+            <section class="form">
                 <label>Phone (recommended)</label>
                 <input class="input" type="tel" placeholder="You'll verify this later" required/>
                 <br>
-                <p id="message">Standard call, messaging or data rates may apply</p>
-            </div>
-            <div class="form">
+                <p class="message">Standard call, messaging or data rates may apply</p>
+            </section>
+            <section class="form">
                 <label>Password</label>
                 <input class="input password-field" type="password" placeholder="Enter password" required >
                  <button class="Create-Account" type="submit">
                     <img class="signin-image" alt="sign-in icon" src="images/lock.svg"/>Create Account</button>
-            </div>
+            </section>
     </form>
     <p class="privacy-statement">By clicking Create account, you agree to our
        <span class="blue-text">
@@ -62,7 +62,7 @@
         <span class="blue-text">
             <a href="https://security.intuit.com/privacy">
             Privacy Statement.</a></span> </p>
-     <div class="recaptcha">
+     <section class="recaptcha">
         <p>Invisible reCAPTCHA by Google 
             <span class="blue-text"> <a href="https://www.google.com/intl/en/policies/privacy/">
             Privacy Policy
@@ -71,12 +71,12 @@
              <span class="blue-text"><a href="https://www.google.com/intl/en/policies/terms/">
              Terms of Use.</a></span>
               </p>
-    </div>
+    </section>
 </div>
    
-</div>
+</main>
 
-    <div class="footer">
+    <section class="footer">
         <p>
             <a href="http://about.intuit.com/legal/" class="text-black"><span>Legal </span></a>
             <a href="https://security.intuit.com/privacy/" class="text-black"><span>Privacy </span></a>
@@ -84,7 +84,7 @@
         </p>
         <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
         <p>Terms and conditions, features, support, pricing, and service options subject to change without notice</p>
-    </div>
+    </section>
 
 
 </body>
