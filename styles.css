@@ -2,6 +2,7 @@
 body{
 background-color: #ECEEF1;
 box-sizing: border-box;
+-webkit-box-sizing: border-box;
 font-family: Arial, Helvetica, sans-serif;
 }
 .container{
@@ -14,53 +15,52 @@ fieldset{
     border: 0;
 }
 a{
-    text-decoration: none;
     color: #0077C5;
+    text-decoration: none;
 }
 .forget-password{
+    font-size: 12px;
     position: absolute;
     right: 5px;
     top: 5px;
     width: 300px;
-    font-size: 12px;
-   
 }
 .sign-in-msg{
-    width: 172px; 
    float: left;
-    margin-top: 18px;
+   margin-top: 18px;
+   width: 172px; 
 }
 .sign-in-msg:first-child p{
     margin: 0;
     margin-bottom: 2px;
 }
 .sign-in-button{
-position: relative;
 background-color: rgb(0,119,197);
 border-radius: 6px;
-width:  90px;
-height: 32px;
-font-size: 14px;
 color: white;
+cursor:pointer;
+font-size: 14px;
+height: 32px;
 margin-top: 14px; 
 padding-left: 20px;
-cursor:pointer;
-
+position: relative;
+width:  90px;
 }
 
 .signin-position{
-    position: absolute;
-    top: 4px;
-    left: 5px;
-    width: 15px !important;
-    height: 15px;
+      height: 15px; 
+      left: 5px; 
+      position: absolute;
+      top: 4px;  
+      width: 15px !important;
 }
 
 .brand {
+    font-size: 50px; 
     margin:0;
-    font-size: 50px;
+    margin-bottom: 10px; 
     margin-top: 90px;
-    margin-bottom: 10px;
+  
 }
 
 .header{
@@ -70,8 +70,8 @@ cursor:pointer;
     margin-top: 0px;
 }
 .list-websites span{
-    vertical-align: middle;
     font-size: 22px;
+    vertical-align: middle;
 }
 .list-websites img{
     vertical-align: middle;
@@ -79,8 +79,9 @@ cursor:pointer;
 .sign-up-form{
     background-color: white;
     border: 1px solid gray;
-    text-align: center;
-    color: #4C4C4C;
+     color: #4C4C4C;
+     text-align: center;
+   
 }
 .title{
     font-size: 24px;
@@ -89,22 +90,21 @@ cursor:pointer;
 color: #0077C5;
 }
 form{
-    text-align: left;
-    padding-left: 35px;
+   padding-left: 35px; 
+   text-align: left;
 }
 label{
+    color: black;
     display: block;
     font-size: 14px;
-    color: black;
 }
 .input{
-    margin-top: 10px;
-    height: 30px;
-    padding: 2px;
-    width: 90%;
     border-radius: 3px;
     border-style: 0.4px solid #C1C5C8;
-  
+    height: 30px;
+    margin-top: 10px;
+    padding: 2px;
+    width: 90%;
 }
 .form{
     margin-bottom:35px ;
@@ -116,8 +116,8 @@ label{
 
 .signin-image{
     height: 20px;
-    width: 20px;
-    margin-right: 10px;
+      margin-right: 10px;
+      width: 20px;
 }
 .password-field{
 background: url(images/password-icon.png) no-repeat scroll 270px 4px;
@@ -125,19 +125,20 @@ background-size: 25px 25px;
 
 }
 .password-icon{
-    width:30px ;
     border: 1px solid gray;
+    width:30px ;
+    
 }
 .Create-Account {
 background-color: rgb(0,119,197);
 border-radius: 6px;
-width: 310px;
-height: 50px;
-font-size: 18px;
 color: white;
-margin-top: 30px;
 cursor:pointer;
+font-size: 18px;
+height: 50px;
 margin-left: -2px;
+margin-top: 30px;
+width: 310px;
 }
 .privacy-statement{
     font-size: 14px;
@@ -145,19 +146,21 @@ margin-left: -2px;
     padding-top: 1px;
 }
 .recaptcha{
+    background-color: #ECEEF1; 
     font-size: 12px;
-    background-color: #ECEEF1;
     height: 40px;
-    width: 100%;
-    padding-top: 10px;
     padding-bottom: 4px;
+    padding-top: 10px;
+    width: 100%;
 }
 
 .footer{
-   margin: 0 auto;
-    text-align: center;
-    font-size: 12px;
-    color: #4C4C4C;
+     color: #4C4C4C;
+     font-size: 12px; 
+     margin: 0 auto;
+     text-align: center;
+ 
+    
 }
 
 .text-black{
