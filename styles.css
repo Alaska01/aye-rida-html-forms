@@ -1,8 +1,164 @@
 
-body{background-color: tomato;}
+body{
+background-color: #ECEEF1;
+font-family: Arial, Helvetica, sans-serif;
+}
 .container{
     margin: 0 auto;
-    background-color: teal;
     width: 400px;
-    height: 100vh;
+    
+    color: #8D9096;
+}
+fieldset{
+    border: 0;
+}
+a{
+    color: #0077C5;
+    text-decoration: none;
+}
+.forget-password{
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 300px;
+}
+.sign-in-msg{
+   float: left;
+   margin-top: 18px;
+   width: 172px; 
+}
+.sign-in-msg:first-child p{
+    margin: 0;
+    margin-bottom: 2px;
+}
+.sign-in-button{
+background-color: rgb(0,119,197);
+border-radius: 6px;
+color: white;
+cursor:pointer;
+font-size: 14px;
+height: 32px;
+margin-left: 4px;
+margin-top: 15px; 
+padding-left: 20px;
+padding-right: 10px;
+position: relative;
+
+}
+
+.signin-position{
+      height: 15px; 
+      left: 5px; 
+      margin-right: 10px;
+      position: absolute;
+      top: 4px;  
+      width: 15px;
+      
+}
+
+.brand {
+    font-size: 50px; 
+    margin:0;
+    margin-bottom: 10px; 
+    margin-top: 90px;
+  
+}
+
+.header{
+    text-align: center;
+}
+.list-websites{
+    margin-top: 0;
+}
+.list-websites span{
+    font-size: 22px;
+    vertical-align: middle;
+}
+.list-websites img{
+    vertical-align: middle;
+}
+.sign-up-form{
+    background-color: white;
+    border: 1px solid gray;
+     color: #4C4C4C;
+     text-align: center;
+   
+}
+.title{
+    font-size: 24px;
+}
+.blue-text{
+color: #0077C5;
+}
+form{
+   padding-left: 35px; 
+   text-align: left;
+}
+label{
+    color: black;
+    display: block;
+    font-size: 14px;
+}
+.input{
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    margin-top: 10px; 
+    padding: 10px 135px 10px 2px; 
+    
+}
+.form{
+    margin-bottom:35px ;
+
+}
+.message{
+    font-size: 10px;
+}
+
+.signin-image{
+    height: 20px;
+      margin-right: 10px;
+      width: 20px;
+}
+.password-field{
+background: url(images/password-icon.png) no-repeat scroll 270px 4px;
+background-size: 25px 25px;
+
+}
+
+.Create-Account {
+background-color: rgb(0,119,197);
+border-radius: 6px;
+color: white;
+cursor:pointer;
+font-size: 18px;
+height: 50px;
+margin-left: -2px;
+margin-top: 30px;
+width: 310px;
+}
+.privacy-statement{
+    font-size: 14px;
+    padding: 40px;
+    padding-top: 1px;
+}
+.recaptcha{
+    background-color: #ECEEF1; 
+    font-size: 12px;
+    padding-bottom: 4px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.footer{
+     color: #4C4C4C;
+     font-size: 12px; 
+     margin: 0 auto;
+     text-align: center;
+ 
+    
+}
+
+.text-black{
+    color: #4C4C4C;
 }
